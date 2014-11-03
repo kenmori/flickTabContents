@@ -1,0 +1,41 @@
+@charset 
+.sliderbox{
+	position: relative;
+	top: 0;
+	left: 0;
+	background: #4e4e4e;
+	height: 400px;
+}
+.sliderInner{
+	width: 240px;/*写真の幅と次の写真と前の写真のちょい見え幅*/
+	height: 153px;
+	overflow: hidden;
+	position: absolute;
+	background: #ccc;
+	left: 50%;
+	top: 100px;
+	margin-left: -120px;/*widthによる位置調整*/
+}
+.sliderInner img{
+	position: absolute;
+	width: 200px;
+	padding: 10px;
+}
+.nav{
+	position: absolute;
+	width: 220px;
+	left: 50%;
+	top: 263px;
+	margin-left: -110px;
+	text-align: center;
+}
+.nav a{
+	padding: 10px;
+	color: #fff;
+	font-size: 15px;
+	font-weight: bold;
+	text-decoration: none;
+}
+.indigator{
+	position: absolute;	
+}
