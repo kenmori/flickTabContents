@@ -2,6 +2,7 @@
 
 **demo**
 [http://80452ec58b45dc2b.lolipop.jp/flickslider/dev.html](http://80452ec58b45dc2b.lolipop.jp/flickslider/dev.html)
+
 (see: mobile phone or if the desktop, Developer Tools)
 
 **summary**
