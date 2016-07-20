@@ -6,6 +6,6 @@
 **summary**
 [http://kenjimorita.jp/yahoo-ui-flick-tab-contents/](http://kenjimorita.jp/yahoo-ui-flick-tab-contents/)
 
-![flickTabContents](http://kenjimorita.jp/wp-content/uploads/2016/07/shouhizeijavascript21.gif "flickTabContents")
+![flickTabContents](http://kenjimorita.jp/wp-content/uploads/2016/07/shouhizeijavascript3.gif "flickTabContents")
 
 
