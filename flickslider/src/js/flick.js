@@ -184,9 +184,12 @@ $(function(){
             sliderNavi(current);
             $($tab[current]).addClass('t-scroll-tabs__nav--active');
             sessionStorage.setItem('topTabNumber',current);//一旦ここやらないとおかしな挙動なるので見せるために
-        }
-    });
+        };
 
+    });
+    (function(){
+        $($tab[0]).addClass('t-scroll-tabs__nav--active');
+    }())
 
 
 var obj = function Direction(direction ,current){

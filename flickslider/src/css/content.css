@@ -23,7 +23,7 @@
     position: absolute;
     top: 32px;
     right: 18px;
-    background: url(../img/arrow_gray-right02.png) no-repeat;
+    background: url(../img/white_right.png) no-repeat;
     -webkit-background-size: 20px 20px;
     background-size: 20px 20px;
     width: 20px;
@@ -65,7 +65,7 @@
 
 .t-scroll-tabs__nav {
     margin: 0 0 0 2px;
-    background: #4A9A00;
+    background: #d9dde3;
     color: #fff!important;
     min-width: 71px
 }
@@ -73,7 +73,8 @@
 
 .news-list li {
     position: relative;
-    border-bottom: 1px solid #e2e2e2
+    border-bottom: 1px solid #e2e2e2;
+    height: 100px;
 }
 
 .news-list li a {
@@ -92,9 +93,7 @@
 
 .t-scroll-tabs__nav.t-scroll-tabs__nav--active {
     color: #fff;
-    background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0,#f78d53),color-stop(0.48,#f77129),color-stop(1,#f77129));
-    background-image: -webkit-linear-gradient(bottom,#f77129 0,#f77129 48%,#f78d53 100%);
-    background-image: linear-gradient(to bottom,#79F753 0,#29F72B 48%,#36F729 100%)
+    background: #f75d5e;
 }
 
 

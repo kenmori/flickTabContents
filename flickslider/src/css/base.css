@@ -82,20 +82,26 @@ a:link,a:visited,a:hover,a:active {
     color: inherit
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.headline{
+    font-size: 20px;
+    padding: 10px;
+}
+.item {
+    position: relative;
+    border-bottom: 1px solid #e2e2e2;
+    height: 100px;
+    padding: 10px;
+}
+.item_img {
+    position:absolute;
+    width: 104px;
+}
+.head_text {
+    padding-left: 110px;
+    padding-top: 5px;
+    font-weight: bold;
+    font-size: 15px;
+}
 
 
 
@@ -254,11 +260,6 @@ a.t-button__green,a.t-button__red {
 
 .t-button__red {
     color: #fff;
-    border: 1px solid #d34800;
-    background: #aa0900;
-    background: linear-gradient(#e72700 0,#aa0900 100%);
-    background: -webkit-linear-gradient(#e72700 0,#aa0900 100%);
-    background: -webkit-gradient(linear,left top,left bottom,from(#e72700),to(#aa0900))
 }
 
 .t-button__group.t-button--disable {
@@ -1115,9 +1116,6 @@ a.t-button__return {
     border: 0
 }
 
-.t-scroll-tabs__cover {
-    border-bottom: 2px solid #4DF71F
-}
 
 .t-scroll-tabs__navs {
     overflow-x: scroll;
